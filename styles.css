@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: burlywood;
+    /* background-color: brown; */
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+    margin: 3in 0;
+}
+
+h2{
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+
+.headerimage{
+    height: 100px;
+    width: 100px;
+    margin-right: 100px;
+}
+
+.toplist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ 
+li{
+    list-style: none;
+    padding: 20px;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left{
+    /* background-color: burlywood; */
+    width: 30%;
+    border-right: violet;
+    border-width: 1in;
+}
+
+
+button{
+    transition-duration: 0.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    padding: 10px 20px;
+    /* background-color: lightblue; */
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0 30px 0;
+    justify-content: space-around;
+    border-radius: 10%;
+    outline: none;
+    border: none;
+}
+
+.explorebtn{
+    background-color: blueviolet;
+}
+
+.aboutusbtn{
+    background-color: #4E42D92E;
+    opacity: 50%;
+}
+
+button:hover{
+    cursor:pointer
+}
+
+.right{
+    width: 600px;
+    height: auto;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    color: #3B3950;
+    margin: 0 60px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #292838;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.footer .text{
+    width: 40%;
+    padding-right: 200px;
+}
+
+.footerh{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.bottomul{
+    margin-right: 50px;
+}
+
+.copyright{
+    background-color: #23222F;
+    color: white;
+    text-align: center;
+}
